@@ -11,9 +11,8 @@ El proyecto consiste en un parche interactivo enfocado en el procesamiento de se
 3. **Módulo de Grabación y Reproducción de Voz en Vivo**, que permite capturar entrada desde micrófono y manipular la velocidad de reproducción.
 
 
-## 🛠️ Arquitectura y Componentes del Parche (`sintetizador.maxpat`)
-
-### 1. Módulo Síntesis AM
+ 🛠️ Arquitectura y Componentes del Parche (`sintetizador.maxpat`)
+ 1. Módulo Síntesis AM
 - **Carga de Audio:** Utiliza `buffer~ cancion1` y `groove~ cancion1` para reproducir muestras locales mediante comandos de lectura (`open`, `loop 1`).
 - **Modulador:** Un oscilador `cycle~` cuya frecuencia se controla dinámicamente mediante un Dial mapped con `scale 0. 127 1. 200.`.
 - **Procesamiento:** Multiplicación de señales (`*~`) entre la señal del `groove~` y el modulador.
