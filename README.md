@@ -1,4 +1,3 @@
- entrega3
 
 
 Este módulo documenta el desarrollo y la implementación interactiva de un sintetizador multimodular diseñado en el entorno de programación visual **Max/MSP** (v9.1.5).
