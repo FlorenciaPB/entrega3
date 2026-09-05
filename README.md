@@ -1,5 +1,5 @@
 # entrega3
-🎬 Entrega 3: Sintetizador en Max/MSP
+
 
 Este módulo documenta el desarrollo y la implementación interactiva de un sintetizador multimodular diseñado en el entorno de programación visual **Max/MSP** (v9.1.5).
 
